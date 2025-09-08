@@ -1,6 +1,4 @@
-import Footer from "@/app/common/Footer/Footer";
 import CaseStudies from "@/Components/CaseStudies";
-import ChoosePlan from "@/Components/ChoosePlan";
 import Hero from "@/Components/Hero";
 import ReadyToTurn from "@/Components/ReadyToTurn";
 import Rectangle from "@/Components/Rectangle";
@@ -19,8 +17,6 @@ export default function Home() {
       <TrustUs />
       {/* this is for case studies */}
       <CaseStudies />
-      {/* this is for choosePlan */}
-      <ChoosePlan />
       <Just5Days />
       <AboutUs />
       <GotQuestions />
