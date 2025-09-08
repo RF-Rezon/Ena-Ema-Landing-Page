@@ -1,0 +1,375 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@layer utilities {
+  /* ---------- General Sans ---------- */
+  .general-reg-12 {
+    font-family: var(--font-general), sans-serif;
+    @apply font-normal text-[10px] leading-[16px] text-[#b2b2b2] md:text-[12px] md:leading-[18px];
+  }
+
+  .general-reg-12-2 {
+    font-family: var(--font-general), sans-serif;
+    @apply text-[12px] font-normal leading-[18px] tracking-[0] text-[#B2B2B2];
+  }
+
+  .general-reg-14 {
+    font-family: var(--font-general), sans-serif;
+    @apply font-normal text-[12px] leading-[18px] text-[#b2b2b2] md:text-[14px] md:leading-[20px];
+  }
+
+  .general-reg-16 {
+    font-family: var(--font-general), sans-serif;
+    @apply font-normal text-[14px] leading-[20px] text-[#b2b2b2] md:text-[16px] md:leading-[24px];
+  }
+
+  .general-reg-18 {
+    font-family: var(--font-general), sans-serif;
+    @apply font-normal md:text-[18px] md:leading-[26px] tracking-[0] text-[#F5F5F5] text-[12px] leading-[18px];
+  }
+
+  .general-reg-20 {
+    font-family: var(--font-general), sans-serif;
+    @apply font-normal text-[16px] leading-[22px] text-[#b2b2b2] md:text-[20px] md:leading-[28px];
+  }
+
+  .general-reg-24 {
+    font-family: var(--font-general), sans-serif;
+    @apply font-normal text-[18px] leading-[26px] text-[#b2b2b2] md:text-[24px] md:leading-[32px];
+  }
+  .general-med-20 {
+    font-family: var(--font-general), sans-serif;
+    @apply font-medium text-[20px] leading-normal text-[#F5F5F5] text-center;
+  }
+
+  .general-med-16 {
+    font-family: var(--font-general), sans-serif;
+    @apply text-[12px] font-normal leading-[18px] tracking-[0] 
+         md:text-[16px] md:font-medium md:leading-normal;
+  }
+
+  /* ---------- Manrope ---------- */
+  .manrope-med-16 {
+    font-family: var(--font-manrope), sans-serif;
+    @apply font-medium text-[14px] leading-[20px] text-[#f5f5f5] lg:text-[16px] lg:leading-[24px];
+  }
+
+  .manrope-med-20 {
+    font-family: var(--font-manrope), sans-serif;
+    @apply font-medium text-[16px] leading-[22px] text-[#f5f5f5] md:text-[20px] md:leading-[28px];
+  }
+
+  .manrope-med-28 {
+    font-family: var(--font-manrope), sans-serif;
+    @apply font-medium text-[20px] leading-[28px] text-[#f5f5f5] md:text-[28px] md:leading-[36px];
+  }
+
+  .manrope-med-36 {
+    font-family: var(--font-manrope), sans-serif;
+    @apply font-medium text-[24px] leading-[32px] text-[#f5f5f5] md:text-[36px] md:leading-[44px];
+  }
+
+  .manrope-med-48 {
+    font-family: var(--font-manrope), sans-serif;
+    @apply font-medium text-[36px] leading-[42px] text-[#f5f5f5] md:text-[48px] md:leading-[72px] tracking-[-2px];
+  }
+
+  .manrope-med-64 {
+    font-family: var(--font-manrope), sans-serif;
+    @apply font-medium text-[40px] leading-[52px] text-[#f5f5f5] text-center md:text-[64px] md:leading-[80px];
+  }
+
+  .manrope-bold-24 {
+    font-family: var(--font-manrope), sans-serif;
+    @apply font-bold text-[24px] leading-[26px] tracking-[-1px] text-[#f5f5f5];
+  }
+
+  .manrope-bold-72 {
+    font-family: var(--font-manrope), sans-serif;
+    @apply font-bold text-center text-[#F5F5F5]
+         text-[36px] leading-[36px] tracking-[-1px]   
+         md:text-[72px] md:leading-[72px] md:tracking-[-4px];
+  }
+
+  /* ---------------------Colours-------------------------- */
+
+  .text-card {
+    @apply text-[#192420];
+  }
+  .bg-card {
+    @apply bg-[#192420];
+  }
+  .text-foreground {
+    @apply text-[#003D25];
+  }
+  .bg-foreground {
+    @apply bg-[#003D25];
+  }
+
+  .text-background {
+    @apply text-[#151E1B];
+  }
+  .bg-background {
+    @apply bg-[#151E1B];
+  }
+
+  .text-primary {
+    @apply text-[#1FFFA5];
+  }
+  .bg-primary {
+    @apply bg-[#1FFFA5];
+  }
+
+  .text-primary_dark {
+    @apply text-[#002013];
+  }
+  .bg-primary_dark {
+    @apply bg-[#002013];
+  }
+
+  .text-primary_light {
+    @apply text-[#00E58A];
+  }
+  .bg-primary_light {
+    @apply bg-[#00E58A];
+  }
+
+  .text-stroke {
+    @apply text-[#2A3C36];
+  }
+  .bg-stroke {
+    @apply bg-[#2A3C36];
+  }
+
+  .text-text-light {
+    @apply text-[#F5F5F5];
+  }
+  .bg-text-light {
+    @apply bg-[#F5F5F5];
+  }
+
+  .text-secondary-light {
+    @apply text-[#B2B2B2];
+  }
+  .bg-secondary-light {
+    @apply bg-[#B2B2B2];
+  }
+  .curved {
+    @apply rounded-[8px];
+  }
+}
+
+/* ////////////////////  Shoriful /////////////// */
+
+.hero {
+  background-color: var(--color-background);
+}
+.textPart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: var(--color-text-secondary);
+  border-radius: 999px;
+  border-top: 1px solid var(--Color-Primary, #1fffa5);
+  background: var(--Color-Card, #192420);
+}
+
+/* big text in hero */
+.bigText {
+  color: var(--Color-text-light, #f5f5f5);
+  text-align: center;
+  font-family: var(--Font-Styles-font-family-fontFamily-Manrope, Manrope);
+  font-style: normal;
+  font-weight: var(--Font-Styles-Weight-fontWeight-bold, 700);
+  line-height: 1.05; /* relative */
+  letter-spacing: -1px; /* adjust negative spacing */
+}
+
+/* big text in hero 2 */
+.bigText2 {
+  color: var(--Color-Primary, #1fffa5);
+
+  /* Manrope/Bold/72 */
+  font-style: normal;
+  font-weight: var(--fontWeight-bold, 700);
+}
+/* heading pera in hero */
+.headingPera {
+  color: #e8e8e8;
+  text-align: center;
+
+  /* General Sans/Regular/18 */
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: var(--Font-Styles-Weight-fontWeight-regular, 400);
+  line-height: 1.45; /* proportional to font-size (18px * 1.45 ≈ 26px) */
+  letter-spacing: var(--Font-Styles-Letter-Spacing-letterSpacing-0, 0);
+}
+
+/* this is for hero contact */
+.heroContact {
+  display: flex;
+  align-items: center;
+  gap: var(--Spacing-xs, 8px);
+  border-radius: 4px;
+  border: 2px solid var(--Color-Stroke, #2a3c36);
+}
+.heroContactButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--Color-Primary, #1fffa5);
+
+  /* CTA Effect */
+  box-shadow: 0 7px 8px 0 rgba(255, 255, 255, 0.5) inset,
+    0 9px 24px 0 rgba(31, 255, 165, 0.25);
+}
+
+/* hero contact main  */
+.heroContactMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid var(--Color-Stroke, #2a3c36);
+  background: var(--Color-Background, #151e1b);
+  box-shadow: 0 12px 32px 0 rgba(31, 255, 165, 0.1);
+}
+/* Right to Left */
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(50%);
+  }
+}
+
+.animate-scroll {
+  animation: scrollLeft 20s linear infinite;
+}
+
+/* Hover Effect */
+.my-cta:hover {
+  background: linear-gradient(135deg, #1fffa5, #00e0a0);
+  box-shadow: inset 0 5px 10px rgba(255, 255, 255, 0.6),
+    inset 0 -5px 10px rgba(115, 114, 114, 0.1),
+    0 8px 20px rgba(31, 255, 165, 0.4);
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  /* Left to Right */
+  @keyframes scrollRight {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(50%);
+    }
+  }
+
+  .animate-scroll-right {
+    animation: scrollRight 15s linear infinite;
+  }
+
+  /* Right to Left */
+  @keyframes scrollLeft {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .animate-scroll-left {
+    animation: scrollLeft 15s linear infinite;
+  }
+}
+
+/* this is for case hight light text */
+.caseHighLight {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 999px;
+  border: 1px solid var(--Color-Foreground, #003d25);
+  background: var(--Color-Foreground, #003d25);
+}
+
+/* this is for case stdio section */
+.caseStdio {
+  gap: 8px;
+  border-radius: 12px;
+  border: 2px solid var(--Color-Stroke, #2a3c36);
+  background: var(--Color-Background, #151e1b);
+}
+/* case card bg */
+.caseCardBg {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 55.49%, #000 127.64%),
+    linear-gradient(270deg, rgba(0, 0, 0, 0) 67.15%, #000 119.31%);
+}
+/* this is for choose your plan card */
+.chooseYourPlanCard {
+  display: flex;
+  padding: 36px;
+  gap: 36.33px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 16px;
+  background: var(--Color-Card, #192420);
+}
+/* this is for choose hr  */
+.chooseHr {
+  color: var(--Color-Stroke, #2a3c36);
+}
+
+/* this is for choose card button */
+.cardButton {
+  display: flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: var(--Spacing-sm, 12px);
+  align-self: stretch;
+  border-radius: 8px;
+}
+/* most popular button for card */
+.mostButton {
+  display: flex;
+  padding: 6px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 999px;
+  border: 2px solid var(--Color-Primary, #1fffa5);
+  background: var(--Color-Background, #151e1b);
+}
+
+/* Special Offer For Early Clients */
+
+.specialOffer {
+  gap: var(--Spacing-xxxl, 48px);
+  align-self: stretch;
+  border-radius: 16px;
+  background: var(--Color-Card, #192420);
+}
+
+/* spacial offer button */
+.specialOfferBtn {
+  padding: 16px 32px;
+  gap: var(--Spacing-sm, 12px);
+  border-radius: 8px;
+  background: var(--Color-Primary, #1fffa5);
+
+  /* CTA Effect */
+  box-shadow: 0 7px 8px 0 rgba(255, 255, 255, 0.5) inset,
+    0 9px 24px 0 rgba(31, 255, 165, 0.25);
+}

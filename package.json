@@ -1,0 +1,31 @@
+{
+  "name": "enlandingpage",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start"
+  },
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "framer-motion": "^12.23.12",
+    "gsap": "^3.13.0",
+    "motion": "^12.23.12",
+    "next": "15.5.2",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-fast-marquee": "^1.6.5",
+    "react-icons": "^5.5.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/aos": "^3.0.7",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "daisyui": "^5.0.54",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
