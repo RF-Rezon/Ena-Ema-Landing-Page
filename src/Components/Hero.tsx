@@ -2,7 +2,6 @@
 import { images } from "@/assets";
 import { contactBottom, heroData } from "@/data/fakeData";
 import Image from "next/image";
-import { useState } from "react";
 import CustomButton from "./button";
 
 const Hero = () => {
@@ -62,7 +61,7 @@ const Hero = () => {
       </div>
       {/* this is for hero contact */}
       <div className="flex flex-col">
-        <div className="heroContactMain w-[90vw] lg:w-[60vw] mx-auto p-3 md:p-9">
+        <div className="heroContactMain mx-auto p-3 md:p-9 md:w-[794px] w-full">
           <div className="flex flex-col w-full gap-y-6">
             <div className="flex flex-col md:flex-row gap-3 w-full">
               {heroData.map((item, index) => (

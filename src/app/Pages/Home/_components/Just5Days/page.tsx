@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { cards } from "./_constants/constants";
-import { images } from "@/assets";
 const Just5Days = () => {
   return (
     <>
@@ -14,7 +13,7 @@ const Just5Days = () => {
           quality.
         </p>
         <div className="flex items-center justify-center">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-x-6 gap-y-9">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-x-6 gap-y-9 md:w-[912px] w-full">
             {cards.map((i, index) => (
               <div
                 key={index}
